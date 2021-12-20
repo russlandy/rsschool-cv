@@ -2,7 +2,7 @@
 
 # About me
 I am 29 years old, I work as a Project Engineer. I have a lot free time and learning Front-end Development.
-* My strengths:
+* **My strengths**:
   * Responsibility
   * Quick learning
   * Diligence
@@ -12,4 +12,16 @@ I am 29 years old, I work as a Project Engineer. I have a lot free time and lear
 # Skills
 * Basic HTML
 * CSS
-*  
+* Autocad
+* Siemens NASTRAN
+
+# Edication
+* **Astrakhan State Technical Univercity**
+  * Naval architect
+
+# Languages
+* **English** - upper-intermediate
+* **Russian** - native speaker
+# My contacts
+* **Phone:** +79996755688
+* **E-mail** ruslandabysov@gmail.com
