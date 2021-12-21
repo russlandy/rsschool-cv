@@ -15,6 +15,14 @@ I am 29 years old, I work as a Project Engineer. I have a lot free time and lear
 * Autocad
 * Siemens NASTRAN
 
+# Code Example
+```
+  for (x in person)
+  {
+    document.write(person[x] + " ");
+  }
+```
+
 # Edication
 * **Astrakhan State Technical Univercity**
   * Naval architect
