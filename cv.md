@@ -17,10 +17,9 @@ I am 29 years old, I work as a Project Engineer. I have a lot free time and lear
 
 # Code Example
 ```
-  for (x in person)
-  {
-    document.write(person[x] + " ");
-  }
+function multiply (a, b){
+  return a * b
+}
 ```
 
 # Edication
