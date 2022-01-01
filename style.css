@@ -133,6 +133,36 @@ body {
     border-bottom: 2px dotted #1b90a5;
 }
 
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .header-profy-name {
+        margin: 0 0 0 1rem;
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .header-nav {
+        display: flex;
+        margin: 0 1rem 0 0;
+    }
+
+    .header-nav-link {
+        margin-left: 1rem;
+        
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        
+        transition: color .2s linear;
+    }
+}
+
 .section-title {
     margin-bottom: 10px;
     
