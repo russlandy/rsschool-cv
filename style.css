@@ -1,0 +1,227 @@
+html {
+    font-size: 15px;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.page { 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(assets/img/background\ water.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 1rem 0;
+    margin-bottom: 110px;
+    background: #1b90a5;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-profy-name {
+    margin: 0 0 0 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-my-logo img{
+    display: block;
+}
+
+.header-nav {
+    display: flex;
+    margin: 0 2rem 0 0;
+}
+
+.header-nav-link:hover {
+    color: #7ebdfc;
+}
+
+.header-nav-link {
+    margin-left: 1.5rem;
+    
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    
+    transition: color .2s linear;
+}
+
+
+
+.main {
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    padding: 35px;
+    border-bottom: 10px solid #1b90a5;
+
+    color: #125662;
+
+}
+
+.my-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.section-title-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.section-title-name {
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section-title-name-description {
+    font-size: 22px;
+}
+
+.section {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 50px;
+    
+    font-size: 1.6rem;
+    color: #fff;
+
+    border-bottom: 2px dotted #1b90a5;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .header-profy-name {
+        margin: 0 0 0 1rem;
+        font-size: 1rem;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .header-nav {
+        display: flex;
+        margin: 0 1rem 0 0;
+    }
+
+    .header-nav-link {
+        margin-left: 1rem;
+        
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        
+        transition: color .2s linear;
+    }
+}
+
+.section-title {
+    margin-bottom: 10px;
+    
+    font-size: 2rem;
+    color: #125662;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.list {
+    margin: 0;
+    padding: 24px;
+}
+
+.list-item {
+    padding-bottom: 10px;
+}
+
+.contacts-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-item {
+    padding-bottom: 5px;
+}
+
+.contacts-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contacts-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.contacts-link:hover {
+    color: #7ebdfc;
+}
+
+.footer {
+    background-color: #125662;
+    padding: 20px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.rs-school-logo {
+    width: 200px;
+}
