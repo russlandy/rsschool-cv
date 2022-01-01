@@ -1,10 +1,76 @@
+html {
+    font-size: 15px;
+
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
+    min-height: 100vh;
 }
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
+}
+
+.page { 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(assets/img/background\ water.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 1rem 0;
+    margin-bottom: 110px;
+    background: #1b90a5;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-profy-name {
+    margin: 0 0 0 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-my-logo img{
+    display: block;
+}
+
+.header-nav {
+    display: flex;
+    margin: 0 2rem 0 0;
+}
+
+.header-nav-link {
+    margin-left: 1.5rem;
+    
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    
+    transition: color .2s linear;
+}
+
+
+
+.main {
+    border: 1px solid rgb(10, 148, 113);
+    margin: 20px;
+}
+
+.footer {
+    border: 1px solid rgb(166, 202, 3);
 }
