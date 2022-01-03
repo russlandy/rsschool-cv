@@ -74,7 +74,7 @@ body {
 
 
 .main {
-    margin: 20px;
+    margin: 20px auto;
     height: 100%;
     width: 100%;
 }
