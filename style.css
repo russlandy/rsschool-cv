@@ -29,7 +29,7 @@ body {
 
 .header {
     padding: 1rem 0;
-    margin-bottom: 0;
+    margin-bottom: 110px;
     background: #1b90a5;
 }
 
@@ -71,8 +71,10 @@ body {
     transition: color .2s linear;
 }
 
+
+
 .main {
-    margin: 20px auto;
+    margin: 20px;
     height: 100%;
     width: 100%;
 }
